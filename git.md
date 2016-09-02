@@ -2,8 +2,8 @@
 
 ## To list global git config
 
-git config --global -l
+```git config --global -l```
 
 ## To Enable long filename
 
-git config --system core.longpaths true
+```git config --system core.longpaths true```

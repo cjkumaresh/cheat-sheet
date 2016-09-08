@@ -1,5 +1,3 @@
-# Git
-
 ## To list global git config
 
 ```git config --global -l```

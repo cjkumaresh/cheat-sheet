@@ -9,3 +9,7 @@
 ## To List Remote urls
 
 ```git remote -v```
+
+## To merge & overwrite conflicts in local branch
+
+```git merge -X ours [branch]```

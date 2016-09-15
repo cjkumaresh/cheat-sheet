@@ -13,3 +13,7 @@
 ## To merge & overwrite conflicts in local branch
 
 ```git merge -X ours [branch]```
+
+## To Delete branch in local
+
+```git branch -D [branch]```

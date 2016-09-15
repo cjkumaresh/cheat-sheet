@@ -1,28 +1,34 @@
 ## To list global git config
-
-```git config --global -l```
+```sh
+git config --global -l
+```
 
 ## To Enable long filename
 
-```git config --system core.longpaths true```
+```sh
+git config --system core.longpaths true
+```
 
 ## To List Remote urls
 
-```git remote -v```
+```sh
+git remote -v
+```
 
 ## To replace a branch with another branch
 
-```git checkout [branch2]```
-
-```git merge -s ours [branch1]```
-
-```git checkout [branch1]```
-
-```git merge [branch2]```
+```sh
+git checkout [branch2]
+git merge -s ours [branch1]
+git checkout [branch1]
+git merge [branch2]
+```
 
 The above will merge [branch2] into [branch1] discarding [branch1] changes
 
 
 ## To Delete branch in local
 
-```git branch -D [branch]```
+```sh
+git branch -D [branch]
+```

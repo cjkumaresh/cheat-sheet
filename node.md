@@ -9,3 +9,8 @@ npm config ls
 ```sh
 npm outdated
 ```
+## To remove unwanted packages with respect with package.json
+
+```sh
+npm prune
+```

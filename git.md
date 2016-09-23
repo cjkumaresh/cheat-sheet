@@ -32,3 +32,8 @@ The above will merge [branch2] into [branch1] discarding [branch1] changes
 ```sh
 git branch -D [branch]
 ```
+
+## To create a new branch
+
+```sh
+git checkout -b [branch]

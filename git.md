@@ -37,3 +37,10 @@ git branch -D [branch]
 
 ```sh
 git checkout -b [branch]
+```
+
+## To stage modified/deleted files only
+
+```sh
+git add -u
+```

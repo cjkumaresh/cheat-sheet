@@ -44,3 +44,9 @@ git checkout -b [branch]
 ```sh
 git add -u
 ```
+
+## To revert ranges of commit
+
+```sh
+git revert <oldest_commit_hash>..<latest_commit_hash>
+```

@@ -14,3 +14,14 @@ npm outdated
 ```sh
 npm prune
 ```
+## To List module owners
+
+```sh
+npm owner ls
+```
+
+## To publish the module
+
+```sh
+npm publish
+```

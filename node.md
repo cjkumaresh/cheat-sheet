@@ -20,6 +20,12 @@ npm prune
 npm owner ls
 ```
 
+## To install and save
+
+```sh
+npm install --save
+```
+
 ## To publish the module
 
 ```sh

@@ -53,5 +53,5 @@ git revert <oldest_commit_hash>..<latest_commit_hash>
 
 ## To delete branch in remote
 ```sh
-git push origin --delete feature/get
+git push origin --delete [branch_name]
 ```

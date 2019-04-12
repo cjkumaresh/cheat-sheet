@@ -55,3 +55,7 @@ git revert <oldest_commit_hash>..<latest_commit_hash>
 ```sh
 git push origin --delete [branch_name]
 ```
+## To change the origin url after repo name changed
+```sh
+git remote set-url origin [new_url]
+```

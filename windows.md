@@ -1,2 +1,4 @@
-List of open ports for listening
-``netstat -an | find /i "listening"``
+## List of open ports for listening
+```sh
+netstat -an | find /i "listening"
+```

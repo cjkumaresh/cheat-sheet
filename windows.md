@@ -2,3 +2,7 @@
 ```sh
 netstat -an | find /i "listening"
 ```
+## List of established ports
+```sh
+netstat -an | find /i "established"
+```

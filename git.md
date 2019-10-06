@@ -70,3 +70,11 @@ git reset --soft HEAD~1
 ```sh
 git reset --hard HEAD~1
 ```
+### To remote sync the forked repo
+```sh
+git remote add upstream [upstream_url]
+git fetch upstream
+git checkout master
+git merge upstream/master
+git push
+```

@@ -80,5 +80,5 @@ git push
 ```
 ### Tp remove information on branches that were deleted on origin
 ```sh
-git remote prune origin
+git remote prune origin or git fetch --prune
 ```

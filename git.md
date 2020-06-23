@@ -78,7 +78,11 @@ git checkout master
 git merge upstream/master
 git push
 ```
-### Tp remove information on branches that were deleted on origin
+### To remove information on branches that were deleted on origin
 ```sh
 git remote prune origin or git fetch --prune
+```
+## To remove garbage collected things
+```sh
+git fsck && git gc --prune=now
 ```

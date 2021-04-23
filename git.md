@@ -82,7 +82,12 @@ git push
 ```sh
 git remote prune origin or git fetch --prune
 ```
-## To remove garbage collected things
+### To remove garbage collected things
 ```sh
 git fsck && git gc --prune=now
+```
+### To checkout big repo in 2 steps (partial)
+```sh
+git clone --depth 1 <repo_URI>  // Step 1: clone partially
+git fetch --unshallow  // Step 2: checkout the rest
 ```
